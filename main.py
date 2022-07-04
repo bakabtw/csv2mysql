@@ -9,7 +9,7 @@ DB_HOST = "127.0.0.1"
 DB_PORT = 3306
 DB_BASE = "test"
 
-CSV_FILE = "1.csv"
+CSV_FILE = "examples/1.csv"
 
 data = pd.read_csv(CSV_FILE, sep="\t", on_bad_lines="skip")
 
